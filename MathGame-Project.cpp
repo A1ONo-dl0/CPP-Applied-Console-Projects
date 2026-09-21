@@ -279,7 +279,7 @@ void ASkAndCorrectTheAnswer(stQuezzInfo& QuezzInfo)
 
 		if (PlayerAnswer == "end" || PlayerAnswer == "End" || PlayerAnswer == "END")
 		{
-			cout << "\nGame Ended By User.\n";
+			cout << "\n" << setw(66) <<"Game Ended By User.\n";
 			break;
 		}
 
