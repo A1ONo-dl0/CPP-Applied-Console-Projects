@@ -312,7 +312,7 @@ void DeleteClient(vector <stClientInfo>& vClient, stClientInfo& stCLient)
 	}
 	else
 	{
-		cout << "\n\nClient With Account Number " << stCLient.AccountNum << " Not Found !" << endl;
+		cout << "\n\nClient With Account Number " << AccountNum << " Not Found !" << endl;
 	}
 
 }
@@ -347,7 +347,7 @@ void UpdateClientData(vector <stClientInfo>& vClient, stClientInfo& stCLient)
 	}
 	else
 	{
-		cout << "\n\nClient With Account Number " << stCLient.AccountNum << " Not Found !" << endl;
+		cout << "\n\nClient With Account Number " << AccountNum << " Not Found !" << endl;
 	}
 }
 
